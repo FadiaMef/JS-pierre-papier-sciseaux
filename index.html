@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <title>Rock Paper Scissors game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-panel">
+        <div class="players-panel">
+            <div>
+                <img class="images" src="./assets/avatar.jpg" />
+                <p class="scores" id="player-score">0</p>
+            </div>
+            <div id="results">
+                <p id="player">Joueur : <span></span></p>
+                <p id="computer">Ordinateur : <span></span></p>
+                <p id="output">Game on</p>
+            </div>
+            <div>
+                <img class="images" src="./assets/computer.png" />
+                <p class="scores" id="computer-score">0</p>
+            </div>
+        </div>
+        <div class="hits-panel">
+            <img src="./assets/paper.png" id='paper'/>
+            <img src="./assets/rock.png" id='rock'/>
+            <img src="./assets/scissors.png" id='scissors'/>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
